@@ -1,0 +1,214 @@
+body {
+    background-color: #61ace4;
+    line-height: 1.5;
+    padding: 20px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+  }
+
+header {
+    background-color: whitesmoke;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 0.9em;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background-color: #032659;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Menú horizontal */
+
+.menu-horizontal ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #032659;
+}
+
+.menu-horizontal ul li {
+  margin: 0;
+}
+
+.menu-horizontal ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu-horizontal ul li a:hover {
+  background-color: #61ace4;
+}
+
+/*Menú vertical*/
+
+.menu-vertical {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 20vh;  
+}
+
+.menu-vertical ul {
+  list-style: none;
+  background-color: #032659;
+  width: 800px;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-vertical ul li a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #04214c;
+}
+
+.menu-vertical ul li a:hover {
+  background-color: #61ace4;
+}
+
+/*Tablas*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 2px solid #04214c;
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table th {
+  background-color: #032659;
+  color: #fff;
+}
+
+table td {
+  background-color: #f0f0f0;
+}
+
+/*Formato de texto*/
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+
+#special-note {
+  color: red;
+  font-style: italic;
+}
+
+/*Decoración de enlaces*/
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff6600;
+  text-decoration: underline;
+}
+
+/*Decoración de listas*/
+
+ul, ol {
+  margin: 10px 20px;
+}
+
+dl {
+  margin: 10px 20px;
+}
+
+dl dt {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+dl dd {
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+/*Formulario*/
+
+form {
+  background-color: #e0e0e0;
+  padding: 20px;
+  border: 2px solid #555;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+form p {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+  background-color: #032659;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+  background-color: #61ace4;
+}
+
+/*Otros estilos*/
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
